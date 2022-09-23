@@ -23,6 +23,30 @@ body {
     box-shadow: 1px 1px 10px bisque;
 }
 
+.about {
+    margin-left: 100px;
+}
+
+.img {
+    margin-left: 150px;
+}
+
+.href {
+    color: black;
+}
+
+.href:hover {
+    color: darkblue;
+}
+
+p {
+    text-align: center;
+}
+
+h4 {
+    text-align: center;
+}
+
 h1 {
  font-weight: bold;
 }
