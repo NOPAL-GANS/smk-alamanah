@@ -169,35 +169,60 @@ section {
 
 
 
-     <!-- about -->
-     <section class="about" id="about">
-        <div class="container">
-          <div class="row">
-            <div class="col-sm-12">
-              <h2 class="text-center">About</h2>
-              <hr>
-            </div>
-          </div>
+     <!-- jurusan -->
+  <section class="about" id="about">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12">
+        <div class="col-lg-4">
+          <img src="img/jurusan/rpl.png" class="jurusan">
+          <h4>Rekayasa Perangkat Lunak</h4>
+          <br>
+          <p class="href2">Rekayasa perangkat lunak adalah salah satu bidang keilmuan atau profesi yang berfokus pada produksi dan pengembangan perangkat lunak. Rekayasa perangkat lunak dalam bahasa Inggris dikenal dengan istilah software engineering</p>
+          <br>
+          <a href="" class="href"><p>Baca Selengkapnya</p></a>
 
-          <div class="row">
-            <div class="col-sm-5 col-sm-offset-1">
-              <p class="pKiri">Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
-                Tempore fugit accusantium nulla rerum nobis architecto alias maiores, 
-                adipisci quas ullam ad facilis illum laboriosam ut soluta numquam ex est quibusdam?
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Et corporis 
-                sunt quidem voluptas, necessitatibus tempora unde repellat ad vitae</p>
-           </div>
-             <div class="col-sm-5">
-              <p class="pKanan">Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
-                Tempore fugit accusantium nulla rerum nobis architecto alias maiores, 
-                adipisci quas ullam ad facilis illum laboriosam ut soluta numquam ex est quibusdam?
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Et corporis 
-                sunt quidem voluptas, necessitatibus tempora unde repellat ad vitae</p>
-            </div>
-          </div>
         </div>
-     </section>
-     <!-- akhir about -->
+        <div class="col-lg-4">
+          <img src="img/jurusan/otkp.png" class="jurusan">
+          <h4>Otomatisasi & Tata Kelola Perkantoran</h4>
+          <br>
+          <p class="href2">Otomatisasi dan Tata Kelola Perkantoran adalah kompetensi keahlian pada Program Keahlian Manajemen Perkantoran yang menekankan pada keterampilan pengelolaan administrasi kepegawaian, keuangan, sarana prasarana serta humas dan keprotokolan</p>
+          <br>
+          <a href="" class="href"><p>Baca Selengkapnya</p></a>
+        </div>
+        <div class="col-lg-4">
+          <img src="img/jurusan/bdp.png" class="jurusan">
+          <h4>BIsnis Daring & Pemasaran</h4>
+          <br>
+          <p class="href2">Bisnis daring dan pemasaran adalah sebuah kompetensi keahlian pada bidang Sekolah Menengah Kejuruan Bisnis dan Manajemen yang mempelajari keilmuan dan praktik tentang bidang pemasaran dan pengembangan bisnis online melalui berbagai media, mulai media offline sampai dengan media Online</p>
+          <br>
+          <a href="" class="href"><p>Baca Selengkapnya</p></a>
+
+        </div>
+        <div class="col-lg-6">
+          <img src="img/jurusan/akuntansi.png" class="img">
+          <h4>Akuntasi & Keuangan Lembaga</h4>
+          <br>
+          <p class="href2">Menghasilkan lulusan untuk menjadi tenaga kerja akuntansi tingkat menengah yang mumpuni, sanggup mengerjakan pembukuan keuangan di perusahaan kecil maupun Nasional dan siap untuk mengembangkan sikap professional yang sesuai dengan tuntutan dunia usaha dunia industri.</p>
+          <br>
+          <a href="" class="href"><p>Baca Selengkapnya</p></a>
+
+        </div>
+        <div class="col-lg-6">
+          <img src="img/jurusan/perbankan.png" class="img">
+          <h4>Perbankan Syariah</h4>
+          <br>
+          <p class="href2">Kompetensi Keahlian ini mempelajari bagaimana menganalisa dan membuat pembukuan keuangan suatu badan usaha, membuat deskripsi dan melakukan interpretasi terhadap permasalahan akuntansi, dan mampu menerapkannya dalam dunia perbankan</p>
+          <br>
+          <a href="" class="href"><p>Baca Selengkapnya</p></a>
+
+        </div>
+        </div>
+      </div>
+    </div>
+  </section>
+     <!-- akhir jurusan -->
 
 
      <!-- portfolio -->
@@ -243,8 +268,6 @@ section {
               </a>
             </div>
           </div>
-
-
         </div>
      </section>
      <!-- akhir portfolio -->
