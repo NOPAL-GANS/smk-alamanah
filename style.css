@@ -31,12 +31,12 @@ body {
     margin-left: 150px;
 }
 
-.href {
+.href2 {
     color: black;
 }
 
 .href:hover {
-    color: darkblue;
+    color: blue;
 }
 
 p {
