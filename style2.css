@@ -6,6 +6,7 @@ body {
     margin-bottom: 100px;
     margin-top: 50px;
     background-color: grey;
+    height: 700px;
 }
 
 .container {
@@ -16,10 +17,34 @@ body {
     color: black;
 }
 
+.H3 {
+    padding-left: 30px;
+    margin-bottom: 30px;
+}
+
+#coding {
+    width: 370px;
+    height: 200px;
+    margin-top: -300px;
+    
+}
+
+#pcoding {
+    margin-top: -300px;
+    margin-left: 360px;
+}
+
+#pcoding2 {
+    float: left;
+    margin-top: -70px;
+    margin-right: 200px;
+}
+
 #imgalzer {
-    width: 350px;
+    width: 420px;
     height: 400px;
     float: right;
+    margin-top: -100px;
 }
 
 #navbar {
