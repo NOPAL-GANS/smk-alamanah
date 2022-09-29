@@ -1,5 +1,5 @@
 <?php
-require 'functions.php';
+require 'functions2.php';
 // Tombol sudah di tekan apa belum
 if ( isset($_POST["submit"]) ) {
     
@@ -8,14 +8,14 @@ if ( isset($_POST["submit"]) ) {
         echo "
           <script>
                alert('Data Berhasil Di Tambahkan');
-               document.location.href = 'index2.php'
+               document.location.href = 'siswa.php'
           </script>
         ";
     } else {
         echo "
         <script>
              alert('Data Gagal Di Tambahkan');
-             document.location.href = 'index2.php'
+             document.location.href = 'siswa.php'
         </script>
       ";
     }
@@ -30,7 +30,7 @@ if ( isset($_POST["submit"]) ) {
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tambah Data Staff</title>
+    <title>Tambah Data Siswa</title>
     <style>
     
     body {
@@ -68,7 +68,7 @@ if ( isset($_POST["submit"]) ) {
     
 <div class="container">
 
-            <h1 style="text-align: center;">Tambah Data Staff</h1>
+            <h1 style="text-align: center;">Tambah Data Siswa</h1>
             <hr style="width: 30%;">
             <br>
             <center><form action="" method="post">
@@ -79,8 +79,8 @@ if ( isset($_POST["submit"]) ) {
                         </li>
                         <br>
                         <li style="list-style:none;">
-                        <label for="no_telp">No.telp :&nbsp;</label>
-                            <input type="text" name="no_telp" id="no_telp" required placeholder="Masukan No.telp">
+                        <label for="jurusan">Jurusan :&nbsp;</label>
+                            <input type="text" name="jurusan" id="jurusan" required placeholder="Masukan Jurusan">
                         </li>
                         <br>
                         <li style="list-style:none;">
@@ -89,8 +89,8 @@ if ( isset($_POST["submit"]) ) {
                         </li>
                         <br>
                         <li style="list-style:none;">
-                        <label for="gambar">Gambar :</label>
-                            <input type="text" name="gambar" id="gambar" required placeholder="Masukan Nama Gambar">
+                        <label for="no_telp">No.telp :</label>
+                            <input type="text" name="no_telp" id="no_telp" required placeholder="Masukan No.telp">
                         </li>
                         <br>
                         <li style="list-style:none;">

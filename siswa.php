@@ -1,6 +1,6 @@
 <?php
-require 'functions.php';
-$staf = query("SELECT * FROM db_staf");
+require 'functions2.php';
+$siswa = query("SELECT * FROM db_siswa");
 ?>
 
 
@@ -10,9 +10,9 @@ $staf = query("SELECT * FROM db_staf");
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Halaman Staff</title>
+    <title>Halaman Siswa</title>
     <style>
-       body {
+       body {                   
         background-color: lightslategray;
         height: auto;
        }
@@ -61,7 +61,7 @@ $staf = query("SELECT * FROM db_staf");
       <div class="container">
           <div class="row">
             <div class="col-lg-12">
-                  <h1>Daftar Staff</h1>
+                  <h1>Daftar Siswa</h1>
                   <br>
 
                     <br>
@@ -70,26 +70,24 @@ $staf = query("SELECT * FROM db_staf");
                             <tr>
                               <th>NO.</th>
                               <th>Aksi</th>
-                              <th>Gambar</th>
                               <th>Nama</th>
-                              <th>no_telp</th>
+                              <th>jurusan</th>
                               <th>Email</th>
-                              <th>Nama Gambar</th>
+                              <th>no_telp</th>
                             </tr>
                             
                             <?php $i = 1; ?>
-                            <?php foreach( $staf as $row ) : ?>
+                            <?php foreach( $siswa as $row ) : ?>
                             <tr>
                               <td><?= $i; ?></td>
                               <td>
-                                  <button><a href="ubah.php?id=<?= $row["id"]; ?>"   style="text-decoration: none;">ubah</a></button> |
-                                  <button><a href="hapus.php?id=<?= $row["id"]; ?>" onclick="return confirm('apakah benar ingin di hapus?')"    style="text-decoration: none;">hapus</a>
+                                  <button><a href="ubah2.php?id=<?= $row["id"]; ?>"   style="text-decoration: none;">ubah</a></button> |
+                                  <button><a href="hapus2.php?id=<?= $row["id"]; ?>" onclick="return confirm('apakah benar ingin di hapus?')"    style="text-decoration: none;">hapus</a>
                               </td>
-                              <td><img src="img/<?= $row["gambar"]; ?>" width="50"></td>
                               <td><?= $row["nama"]; ?></td>
-                              <td><?= $row["no_telp"]; ?></td>
+                              <td><?= $row["jurusan"]; ?></td>
                               <td><?= $row["email"]; ?></td>
-                              <td><?= $row["gambar"]; ?></td>
+                              <td><?= $row["no_telp"]; ?></td>
                             </tr>
                             <?php $i++; ?>
                             <?php endforeach; ?> 
@@ -98,6 +96,6 @@ $staf = query("SELECT * FROM db_staf");
         </div>
      </div>   
      <br>
-     <a href="tambah.php" class="tambah"  style="float: right;" >Tambah Data Staff</a>    <a href="index.php" class="tambah"  style="float: left;" >Kembali</a>    
+     <a href="tambah2.php" class="tambah" style="float: right;">Tambah Data Siswa</a> <a href="index.php" class="tambah"  style="float: left;" >Kembali</a>    
 </body>
 </html>

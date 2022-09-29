@@ -2,7 +2,6 @@
 // koneksi ke database
 $conn = mysqli_connect("localhost", "root", "", "smk-alamanah");
 
-
 function query($query) {
     global $conn;
     $result = mysqli_query($conn, $query);
@@ -14,18 +13,19 @@ function query($query) {
 }
 
 
+
  function tambah($data) {
         // ambil data dari tiap elemen dalam form
         global $conn;
         $nama = htmlspecialchars($data["nama"]);
-        $no_telp = htmlspecialchars($data["no_telp"]);
+        $jurusan = htmlspecialchars($data["jurusan"]);
         $email = htmlspecialchars($data["email"]);  
-        $gambar = htmlspecialchars($data["gambar"]);
+        $no_telp = htmlspecialchars($data["no_telp"]);
 
         // query insert data
-        $query = "INSERT INTO db_staf
+        $query = "INSERT INTO db_siswa
                     VALUES 
-                    ('', '$nama', '$no_telp', '$email', '$gambar')
+                    ('', '$nama', '$jurusan', '$email', '$no_telp')
                     ";
         mysqli_query($conn, $query);
 
@@ -35,7 +35,7 @@ function query($query) {
 
 function hapus($id) {
     global $conn;
-    mysqli_query($conn, "DELETE FROM db_staf WHERE id = $id");
+    mysqli_query($conn, "DELETE FROM db_siswa WHERE id = $id");
     return mysqli_affected_rows($conn);
 }
 
@@ -45,17 +45,16 @@ function ubah($data) {
 
     $id = $data["id"];
     $nama = htmlspecialchars($data["nama"]);
-    $no_telp = htmlspecialchars($data["no_telp"]);
-    $email = htmlspecialchars($data["email"]);
-    $jurusan = htmlspecialchars($data["jurusan"]);   
-    $gambar = htmlspecialchars($data["gambar"]);
+    $jurusan = htmlspecialchars($data["jurusan"]);
+    $no_telp = htmlspecialchars($data["no_telp"]); 
+    $email = htmlspecialchars($data["email"]);  
 
     // query insert data
-    $query = "UPDATE db_staf SET 
+    $query = "UPDATE db_siswa SET 
                nama = '$nama',
-               no_telp  = '$no_telp',
-               email = '$email',
-               gambar = '$gambar'
+               jurusan  = '$jurusan',
+               no_telp = '$no_telp',
+               email = '$email'
                WHERE id = $id
                 ";
     mysqli_query($conn, $query);
