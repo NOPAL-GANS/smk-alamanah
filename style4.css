@@ -1,0 +1,103 @@
+
+
+body {
+    margin-bottom: 100px;
+    margin-top: 50px;
+    background-color: darkblue;
+    height: auto;
+}
+
+.container {
+    width: 1200px;
+}
+
+.row {
+    background: white;
+}
+
+.href {
+    color: black;
+}
+
+.jurusan1 {
+    margin-top: 40px;
+}
+
+.jurusan2 {
+    float: right;
+    margin-top: 100px;
+}
+
+.portfolio .thumbnail {
+    transform: translate(0, -40px);
+    transition: 0.5s;
+}
+
+.guru1 {
+    margin-top: -40px;
+}
+
+.guru2 {
+    margin-top: -40px;
+}
+
+.guru3 {
+    margin-top: -40px;
+}
+
+.brosur {
+    float: right;
+    margin-top: -100px;
+    margin-right: 130px;
+}
+
+.card {
+    margin-right: 20px;
+}
+
+.hr {
+    color: blue;
+}
+
+#p1 {
+    width: 700px;
+}
+
+#p2 {
+    width: 700px;
+}
+
+#p3 {
+    padding-right: 300px;
+}
+
+#p4 {
+    padding-left: 14px;
+}
+
+#href {
+    padding-left: 200px;
+    padding-top: 10px;
+    float: right;
+}
+
+
+#navbar {
+    background-color: black;
+    margin-top: 10px;
+}
+
+#coding {
+    width: 400px;
+    height:200px;
+}
+
+#t1 {
+    float: right;
+    margin-top: 50px;
+    padding-left: 100px;
+}
+
+#t2 {
+    padding-left: 40px;
+}
