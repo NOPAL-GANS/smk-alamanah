@@ -19,6 +19,30 @@ body {
     box-shadow: 10px 25px 30px rgba(0,0,0,0.3);
 }
 
+.jurusan {
+    margin-left: 100px;
+}
+
+.img {
+    margin-left: 150px;
+}
+
+.href2 {
+    color: black;
+}
+
+.href:hover {
+    color: blue;
+}
+
+p {
+    text-align: center;
+}
+
+h4 {
+    text-align: center;
+}
+
 h1 {
  font-weight: bold;
 }
