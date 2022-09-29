@@ -8,19 +8,15 @@ body {
     margin-top: 50px;
 }
 
-.jumbotron {
-    height: 400px;
-    background-image: url(./img/oo.jfif);
-    background-attachment: fixed;
-    background-position: center;
-    background-size: cover;
+.slide{
+    width: 500px;
+    transform: translate(-50%,-50%);
+    top: 50%;
+    left: 50%;
     overflow: hidden;
-}
-
-.jumbotron img {
-    width: 200px;
-    border: 5px solid white;
-    box-shadow: 1px 1px 10px bisque;
+    border: 10px solid #ffffff;
+    border-radius: 8px;
+    box-shadow: 10px 25px 30px rgba(0,0,0,0.3);
 }
 
 h1 {
