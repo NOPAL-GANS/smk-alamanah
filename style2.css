@@ -51,6 +51,14 @@ body {
     margin-right: 70px;
 }
 
+.card {
+    margin-right: 20px;
+}
+
+.hr {
+    color: blue;
+}
+
 #p1 {
     width: 700px;
 }
@@ -82,4 +90,14 @@ body {
 #coding {
     width: 400px;
     height:200px;
+}
+
+#t1 {
+    float: right;
+    margin-top: -400px;
+    padding-left: 100px;
+}
+
+#t2 {
+    padding-left: 40px;
 }
