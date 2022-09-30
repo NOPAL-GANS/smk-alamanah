@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-    <title>My Portfolio</title>
+    <title>smk-alamanah</title>
 
     <style>
      
@@ -313,9 +313,6 @@ section {
      <!-- akhir contact -->
 
 
-
-
-
      
     <div class="container" id="footer">
       <div class="row" id="t1" >
@@ -340,9 +337,9 @@ section {
               <hr>
               <br>
               <ul>
-                <li><a href=""><p>instagram</p></a></li>
+                <li><a href=""><p>Instagram</p></a></li>
                 <hr>
-                <li><a href=""><p>youtube</p></a></li>
+                <li><a href=""><p>Youtube</p></a></li>
                 <hr>
                 <li><a href=""><p>Web Pendaftaran</p></a></li>
                 <hr>
