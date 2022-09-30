@@ -47,8 +47,8 @@ body {
 
 .brosur {
     float: right;
-    margin-top: -900px;
-    margin-right: 70px;
+    margin-top: -100px;
+    margin-right: 130px;
 }
 
 .card {
@@ -94,7 +94,7 @@ body {
 
 #t1 {
     float: right;
-    margin-top: -400px;
+    margin-top: 50px;
     padding-left: 100px;
 }
 
